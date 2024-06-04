@@ -74,13 +74,18 @@ html {
 }
 
 .profile-card {
-  width: 20%;
-  height: 40%;
-  background-color: rgb(223, 205, 205);
+  width: 15%;
+  height: 30%;
+  background-color: whitesmoke;
   color: black;
   position: absolute;
   right: 0;
-  top: 25%;
+  top: 10%;
+  right: 1%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border-radius: 10px;
 }
 
 .card-cont {
@@ -304,5 +309,13 @@ html {
   height: 80%;
 }
 .nav{
-  box-shadow: 0px 5px 5px  black;
+  box-shadow: 0px 2px 2px  rgb(64, 60, 60);
+}
+.cart-item{
+  padding-left:10%;
+
+}
+.line-item{
+  background-color: rgb(76, 35, 115);
+  color: black;
 }
